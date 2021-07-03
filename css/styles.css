@@ -256,6 +256,17 @@ body {
   margin-right: 0;
 }
 
+.icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-item {
+  width: 70px;
+  height: 70px;
+}
+
 /* ============ END FEATURES ===============  */
 
 /* ============ PROJECTS COMPANY ============ */
