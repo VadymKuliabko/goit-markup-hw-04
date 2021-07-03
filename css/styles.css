@@ -124,6 +124,8 @@ body {
 }
 
 .contact-link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -131,12 +133,8 @@ body {
   color: var(--secondary-color);
 }
 
-.mail {
-  margin-left: 0;
-}
-
-.tel {
-  margin-left: 50px;
+.contact-header {
+  margin-right: 50px;
 }
 
 .contact-link:hover,
@@ -148,11 +146,26 @@ body {
   color: var(--accent-color);
 }
 
+.icon-envelope {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-smartphone {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* ============ END HEADER ===============*/
 
 /* ============ HERO SECTION ============ */
 .hero {
-  background: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero/bg.jpg");
+  background-size: cover;
   text-align: center;
 }
 
