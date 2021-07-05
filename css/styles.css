@@ -442,11 +442,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
-
-}
 .client-item:last-child {
   margin-right: 0;
 }
@@ -466,11 +463,14 @@ body {
 .client-link:hover,
 .client-link:focus {
   fill: var(--accent-color);
-  border: 1px solid var(--accent-color);;
 }
 
-.client-icon {
+.client-link:hover,
+.client-link:focus {
+  border: 1px solid var(--accent-color);
 }
+
+/* ===============END CLIENTS COMPANY ==============*/
 
 /* =============== FOOTER ================== */
 
@@ -481,6 +481,11 @@ body {
 .footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.contacts-footer {
+  display: inline-block;
+  margin-right: 70px;
 }
 
 .footer-logo {
@@ -533,6 +538,45 @@ body {
   text-decoration: none;
 }
 
+.links-footer {
+  display: inline-block;
+}
+.join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-link-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #afb1b8;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+}
 /* =========== END FOOTER ============ */
 
 /* =========== PORTFOLIO ============= */
