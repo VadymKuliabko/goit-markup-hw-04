@@ -479,12 +479,15 @@ body {
 }
 
 .footer-container {
+  display: flex;
+  align-items: baseline;
+
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .contacts-footer {
-  display: inline-block;
+  display: block;
   margin-right: 70px;
 }
 
@@ -539,8 +542,8 @@ body {
 }
 
 .links-footer {
-  display: inline-block;
 }
+
 .join {
   font-weight: 700;
   font-size: 14px;
@@ -548,29 +551,40 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+
+  margin-bottom: 20px;
 }
 
 .footer-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .footer-link-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-right: 10px;
 }
 
+.footer-link-item:last-child {
+  margin-right: 0;
+}
+
+.link-item:hover,
+.link-item:focus {
+  background: var(--accent-color);
+}
 .link-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  fill: #afb1b8;
+  fill: #ffffff;
 }
 
 .footer-icon {
