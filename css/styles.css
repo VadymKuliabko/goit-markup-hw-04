@@ -457,7 +457,6 @@ body {
   width: 172px;
   height: 94px;
   fill: #afb1b8;
-  padding: 16px 32px;
 }
 
 .client-link:hover,
@@ -539,9 +538,6 @@ body {
 
 .company-link {
   text-decoration: none;
-}
-
-.links-footer {
 }
 
 .join {
